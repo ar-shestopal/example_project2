@@ -24,8 +24,7 @@ Serial ID   Name   Address    Engraving   Accessory pack   Quantity   Colors
  2 Referral program 
 
  I have created referral program system.
- Admin can create referral program at admin panel,with different for different types of products(Wallet trackr, Stickr trackr or Bravo trackr)
-   with different prizes (free product of some type or discount) and number of users customer needs to invite
+ Admin can create referral program at admin panel,with different for different types of products(Wallet trackr, Stickr trackr  or Bravo trackr) with different prizes (free product of some type or discount) and number of users customer needs to invite
  Admin can create program with demand to share information about TrackR on facebook or twetter
  When user buy new product he can select referral program from a list.
  He will see wether link to refer friends or link to share on facebook or tweeter.
@@ -37,6 +36,6 @@ Serial ID   Name   Address    Engraving   Accessory pack   Quantity   Colors
 
  3 Coordinates
 
- I created model for importing  coordinates(longitude,latitude) to the database.
+ I created model for importing  coordinates(longitude,latitude) to the database I used Postgres and active record do to small  amout of data but Redis would be a good alternative.
  Created task crowdgps_import.rake to import data from csv file
- Than data was loaded to javascript with ajax call and displayed on the main page using googlemaps api. 
+ Then data was loaded to javascript with ajax call and displayed on the main page using googlemaps api. 
