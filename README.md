@@ -1,4 +1,4 @@
-Project aim is sell original gps tracking device. 
+Project aim is to sell original GPS-tracking device. 
 Project was build using Postgres, AWS, activeadmin, googlemapsapi and hosted on heroku
 
 1 task to export information about ordes to csv
